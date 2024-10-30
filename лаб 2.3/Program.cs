@@ -1,0 +1,10 @@
+﻿const double x = 2;
+const double y = 1.5;
+const double x = -0.5;
+const double y = 2.3;
+const double x = 1.5;
+const double y = -0.8;
+Console.WriteLine("Enter R");
+double R = double.Parse(Console.ReadLine());
+if ((x <= Math.Abs(R)) && (y <= Math.Abs(R))) Console.WriteLine("Точка лежит в окружности");
+else Console.WriteLine("Не лежит");
